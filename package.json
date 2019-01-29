@@ -1,0 +1,22 @@
+{
+  "name": "ts2externs",
+  "version": "1.0.0",
+  "description": "generate google closure externs file from .d.ts file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "closure"
+  ],
+  "author": "brotherjing0129@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "ts-simple-ast": "^21.0.0"
+  }
+}
